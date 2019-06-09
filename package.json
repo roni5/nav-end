@@ -5,13 +5,16 @@
   "dependencies": {
     "import": "0.0.6",
     "isomorphic-fetch": "^2.2.1",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1"
   },
-    "env": {
-        "jest": true
-    },
+  "env": {
+    "jest": true
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,13 +23,13 @@
     "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
-    "lint-staged": {
-        "*.{js,jsx}": [
-            "pretty-quick --staged",
-            "eslint src/ --fix",
-            "git add"
-        ]
-    },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
