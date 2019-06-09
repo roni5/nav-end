@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Button } from 'semantic-ui-react';
+import ButtonBase from './components/button';
+import Select from './components/select';
 import './App.css';
 
 function App() {
@@ -19,6 +22,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="body">
+        <Select/>
+        <ButtonBase />
+        <Button class="ui button">Click Here</Button>
+      </div>
     </div>
   );
 }
