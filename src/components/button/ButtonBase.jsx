@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Icon } from 'semantic-ui-react';
 
 const ButtonBase = () => (
-  <div>
+  <React.Fragment>
     <Button basic color="olive">
       Olive
     </Button>
@@ -32,11 +32,18 @@ const ButtonBase = () => (
     </Button.Group>
     <div>
       <Button.Group>
-    <Button onClick={ ()=> {console.log("clicked");}} primary>Primary</Button>
+        <Button
+          onClick={() => {
+            console.log('clicked');
+          }}
+          primary
+        >
+          Primary
+        </Button>
         <Button secondary>Secondary</Button>
       </Button.Group>
     </div>
-  </div>
+  </React.Fragment>
 );
 
 export default ButtonBase;

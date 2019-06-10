@@ -22,6 +22,14 @@ import { Dropdown, Menu } from 'semantic-ui-react';
 //   options: PropTypes.arrayOf(PropTypes.shape(Dropdown.Item.propTypes))
 //     .isRequired
 // };
+    //  PropTypes.shape({
+    //     as: PropTypes.oneOfType([
+    //       PropTypes.string,
+    //       PropTypes.element,
+    //       PropTypes.func
+    //     ]).isRequired
+    //   }).isRequired
+    // ),
 const Select = props => (
   <Menu>
     <Menu.Item>Home</Menu.Item>
