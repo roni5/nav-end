@@ -9,7 +9,7 @@ const styles = {
 };
 
 class Menus extends React.Component {
-  // Initialize the state
+  // Initialize the statels
   constructor(props) {
     super(props);
     this.state = {
@@ -36,9 +36,8 @@ class Menus extends React.Component {
   render() {
     const { menu } = this.state;
     // console.log(JSON.stringify(this.state.menu.navCatagories));
-
     return (
-      <div tabindex="0" className="main">
+      <Fragment tabindex="0" className="main">
         <ul aria-label="mainnav" className="mainnav">
           {this.state.menu.map((navCatagories, index) => {
             return (
@@ -60,7 +59,7 @@ class Menus extends React.Component {
         </ul>
 
         <br style={styles.default}></br>
-      </div>
+      </Fragment>
     );
   }
 }

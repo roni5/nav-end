@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import 'semantic-ui-css/semantic.min.css';
-// import getMenus from './components/menus/Menus';
+
 import * as serviceWorker from './serviceWorker';
 
 // getFacts().then((menus) => {
