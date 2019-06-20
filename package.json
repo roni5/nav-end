@@ -10,9 +10,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.1"
+    "semantic-ui-react": "^0.87.1",
+    "styled-components": "^4.3.1"
   },
   "env": {
     "jest": true
@@ -20,6 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "webpack": "node_modules/.bin/webpack",
     "test": "react-scripts test --env=jsdom ",
     "test:watch": "jest --watch",
     "test:coverage": "react-scripts test --coverage",
@@ -48,13 +51,17 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-stage-1": "^7.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
-    "pretty-quick": "^1.11.0"
+    "pretty-quick": "^1.11.0",
+    "webpack-cli": "^3.3.4"
   }
 }

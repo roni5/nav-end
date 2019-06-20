@@ -20,13 +20,13 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0b0c0c;
 }
-.body{
-    flex: 1;
-    margin-top: 5%;
-    /* margin: auto 0; */
-    padding-bottom: 5%;
+.body {
+  flex: 1;
+  margin-top: 5%;
+  /* margin: auto 0; */
+  padding-bottom: 5%;
 }
 
 @keyframes App-logo-spin {
